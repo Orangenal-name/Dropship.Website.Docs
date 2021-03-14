@@ -89,6 +89,8 @@ is the directory structure after creating a project with the name `ExamplePlugin
 
 ## Setup Among Us environment variable
 
+If you do not have the correct privileges to do this step on your machine, you can go to the [Environment Variable Alternative](#environment-variable-alternative)
+
 Finally, we need to set up an environment variable which points to your modded Among Us Directory.
 This is the folder in which BepInEx was installed earlier.
 
@@ -117,3 +119,7 @@ On Linux, there are many options. Here are two different ways:
     ```
     export AmongUs=/path/to/among/us
     ```
+## Environment Variable Alternative
+
+If you do not have the right permissions to edit system environment variables, you can go to the next step and just follow the steps at the bottom of the page.
+[comment]: # (About to propose changes to that too.)
