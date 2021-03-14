@@ -122,4 +122,3 @@ On Linux, there are many options. Here are two different ways:
 ## Environment Variable Alternative
 
 If you do not have the right permissions to edit system environment variables, you can go to the next step and just follow the steps at the bottom of the page.
-[comment]: # (About to propose changes to that too.)
