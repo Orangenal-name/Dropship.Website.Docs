@@ -85,7 +85,7 @@ In the `.csproj` file, there are few important properties:
     </Target>
 </Project>
 ```
-# What if you didn't set the system envitonment variable?
+### What if you didn't set the system environment variable?
 
 If you haven't set the system environment variable, then you can go into the `.csproj` file and replace any instance of $(AmongUs) with your among us directory. You can now build, but you will get an error. There should only be one error stating that the among us game directory could not be found. In visual studio, you can double-click this error to go the the file that produces it. you will see it says something along the lines of `if (!$(AmongUs))` and then some code. you will want to delete everything from the `<Target Name="NAME">` to the next `</Target>` and then inside that same file, replace every instance of $(AmongUs) with your among us directory, just like we did earlier in the `.csproj` file.
 
